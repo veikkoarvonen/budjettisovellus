@@ -9,23 +9,27 @@
 /* Begin PBXBuildFile section */
 		B63E50FF2EBA9070006ED5A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63E50FE2EBA9070006ED5A4 /* AppDelegate.swift */; };
 		B63E51012EBA9070006ED5A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63E51002EBA9070006ED5A4 /* SceneDelegate.swift */; };
-		B63E51032EBA9070006ED5A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63E51022EBA9070006ED5A4 /* ViewController.swift */; };
+		B63E51032EBA9070006ED5A4 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63E51022EBA9070006ED5A4 /* MainVC.swift */; };
 		B63E51062EBA9070006ED5A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B63E51042EBA9070006ED5A4 /* Main.storyboard */; };
 		B63E51092EBA9070006ED5A4 /* Budjettisovellus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B63E51072EBA9070006ED5A4 /* Budjettisovellus.xcdatamodeld */; };
 		B63E510B2EBA9072006ED5A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B63E510A2EBA9072006ED5A4 /* Assets.xcassets */; };
 		B63E510E2EBA9072006ED5A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B63E510C2EBA9072006ED5A4 /* LaunchScreen.storyboard */; };
+		B63E51192EBAA14C006ED5A4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63E51182EBAA14C006ED5A4 /* Constants.swift */; };
+		B63E511C2EBAA380006ED5A4 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B63E511B2EBAA380006ED5A4 /* Lato-Black.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B63E50FB2EBA9070006ED5A4 /* Budjettisovellus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Budjettisovellus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B63E50FE2EBA9070006ED5A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B63E51002EBA9070006ED5A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B63E51022EBA9070006ED5A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B63E51022EBA9070006ED5A4 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		B63E51052EBA9070006ED5A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B63E51082EBA9070006ED5A4 /* Budjettisovellus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Budjettisovellus.xcdatamodel; sourceTree = "<group>"; };
 		B63E510A2EBA9072006ED5A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B63E510D2EBA9072006ED5A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B63E510F2EBA9072006ED5A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B63E51182EBAA14C006ED5A4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B63E511B2EBAA380006ED5A4 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +62,50 @@
 		B63E50FD2EBA9070006ED5A4 /* Budjettisovellus */ = {
 			isa = PBXGroup;
 			children = (
-				B63E50FE2EBA9070006ED5A4 /* AppDelegate.swift */,
-				B63E51002EBA9070006ED5A4 /* SceneDelegate.swift */,
-				B63E51022EBA9070006ED5A4 /* ViewController.swift */,
-				B63E51042EBA9070006ED5A4 /* Main.storyboard */,
+				B63E511A2EBAA371006ED5A4 /* CustomFonts */,
+				B63E51172EBAA091006ED5A4 /* Model */,
+				B63E51152EBAA07B006ED5A4 /* Control */,
+				B63E51162EBAA086006ED5A4 /* View */,
 				B63E510A2EBA9072006ED5A4 /* Assets.xcassets */,
 				B63E510C2EBA9072006ED5A4 /* LaunchScreen.storyboard */,
 				B63E510F2EBA9072006ED5A4 /* Info.plist */,
 				B63E51072EBA9070006ED5A4 /* Budjettisovellus.xcdatamodeld */,
 			);
 			path = Budjettisovellus;
+			sourceTree = "<group>";
+		};
+		B63E51152EBAA07B006ED5A4 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				B63E51022EBA9070006ED5A4 /* MainVC.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		B63E51162EBAA086006ED5A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B63E51042EBA9070006ED5A4 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B63E51172EBAA091006ED5A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B63E51002EBA9070006ED5A4 /* SceneDelegate.swift */,
+				B63E50FE2EBA9070006ED5A4 /* AppDelegate.swift */,
+				B63E51182EBAA14C006ED5A4 /* Constants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B63E511A2EBAA371006ED5A4 /* CustomFonts */ = {
+			isa = PBXGroup;
+			children = (
+				B63E511B2EBAA380006ED5A4 /* Lato-Black.ttf */,
+			);
+			path = CustomFonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B63E511C2EBAA380006ED5A4 /* Lato-Black.ttf in Resources */,
 				B63E510E2EBA9072006ED5A4 /* LaunchScreen.storyboard in Resources */,
 				B63E510B2EBA9072006ED5A4 /* Assets.xcassets in Resources */,
 				B63E51062EBA9070006ED5A4 /* Main.storyboard in Resources */,
@@ -141,7 +180,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B63E51032EBA9070006ED5A4 /* ViewController.swift in Sources */,
+				B63E51192EBAA14C006ED5A4 /* Constants.swift in Sources */,
+				B63E51032EBA9070006ED5A4 /* MainVC.swift in Sources */,
 				B63E51092EBA9070006ED5A4 /* Budjettisovellus.xcdatamodeld in Sources */,
 				B63E50FF2EBA9070006ED5A4 /* AppDelegate.swift in Sources */,
 				B63E51012EBA9070006ED5A4 /* SceneDelegate.swift in Sources */,
