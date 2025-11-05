@@ -16,6 +16,9 @@
 		B63E510E2EBA9072006ED5A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B63E510C2EBA9072006ED5A4 /* LaunchScreen.storyboard */; };
 		B63E51192EBAA14C006ED5A4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63E51182EBAA14C006ED5A4 /* Constants.swift */; };
 		B63E511C2EBAA380006ED5A4 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B63E511B2EBAA380006ED5A4 /* Lato-Black.ttf */; };
+		B6DB1D4E2EBAD38000DE9485 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6DB1D4D2EBAD38000DE9485 /* Lato-Regular.ttf */; };
+		B6DB1D502EBAD48800DE9485 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6DB1D4F2EBAD48800DE9485 /* Lato-Bold.ttf */; };
+		B6DB1D522EBAE18500DE9485 /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DB1D512EBAE18500DE9485 /* DateManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		B63E510F2EBA9072006ED5A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B63E51182EBAA14C006ED5A4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B63E511B2EBAA380006ED5A4 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		B6DB1D4D2EBAD38000DE9485 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		B6DB1D4F2EBAD48800DE9485 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		B6DB1D512EBAE18500DE9485 /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,7 @@
 				B63E51002EBA9070006ED5A4 /* SceneDelegate.swift */,
 				B63E50FE2EBA9070006ED5A4 /* AppDelegate.swift */,
 				B63E51182EBAA14C006ED5A4 /* Constants.swift */,
+				B6DB1D512EBAE18500DE9485 /* DateManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -104,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				B63E511B2EBAA380006ED5A4 /* Lato-Black.ttf */,
+				B6DB1D4D2EBAD38000DE9485 /* Lato-Regular.ttf */,
+				B6DB1D4F2EBAD48800DE9485 /* Lato-Bold.ttf */,
 			);
 			path = CustomFonts;
 			sourceTree = "<group>";
@@ -167,7 +176,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B63E511C2EBAA380006ED5A4 /* Lato-Black.ttf in Resources */,
+				B6DB1D502EBAD48800DE9485 /* Lato-Bold.ttf in Resources */,
 				B63E510E2EBA9072006ED5A4 /* LaunchScreen.storyboard in Resources */,
+				B6DB1D4E2EBAD38000DE9485 /* Lato-Regular.ttf in Resources */,
 				B63E510B2EBA9072006ED5A4 /* Assets.xcassets in Resources */,
 				B63E51062EBA9070006ED5A4 /* Main.storyboard in Resources */,
 			);
@@ -181,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B63E51192EBAA14C006ED5A4 /* Constants.swift in Sources */,
+				B6DB1D522EBAE18500DE9485 /* DateManager.swift in Sources */,
 				B63E51032EBA9070006ED5A4 /* MainVC.swift in Sources */,
 				B63E51092EBA9070006ED5A4 /* Budjettisovellus.xcdatamodeld in Sources */,
 				B63E50FF2EBA9070006ED5A4 /* AppDelegate.swift in Sources */,
