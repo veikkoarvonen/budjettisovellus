@@ -20,3 +20,11 @@ struct Categories {
     static let categories = ["Tesla", "Lataus", "Ruoka", "Dokaaminen", "Asuminen", "Tilaukset", "Noutoruoka", "Firman menot", "Muut"]
     static let emojis = ["🚘", "⚡️", "🍎", "🍻", "🏡", "💳", "🍕", "📉", "❓"]
 }
+
+struct ViewMargins {
+    static let viewMargin: CGFloat = 30.0
+    static let viewGap: CGFloat = 15.0
+    static let topViewMargin: CGFloat = 10.0
+    static let topViewHeigth: CGFloat = 200.0
+    static let categoryViewMargin: CGFloat = 10.0
+}

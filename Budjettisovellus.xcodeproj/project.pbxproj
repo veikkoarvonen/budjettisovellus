@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B62DF4A72EBB7339008E3EE2 /* MainVCElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62DF4A62EBB7339008E3EE2 /* MainVCElements.swift */; };
 		B63E50FF2EBA9070006ED5A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63E50FE2EBA9070006ED5A4 /* AppDelegate.swift */; };
 		B63E51012EBA9070006ED5A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63E51002EBA9070006ED5A4 /* SceneDelegate.swift */; };
 		B63E51032EBA9070006ED5A4 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63E51022EBA9070006ED5A4 /* MainVC.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B62DF4A62EBB7339008E3EE2 /* MainVCElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCElements.swift; sourceTree = "<group>"; };
 		B63E50FB2EBA9070006ED5A4 /* Budjettisovellus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Budjettisovellus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B63E50FE2EBA9070006ED5A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B63E51002EBA9070006ED5A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				B63E50FE2EBA9070006ED5A4 /* AppDelegate.swift */,
 				B63E51182EBAA14C006ED5A4 /* Constants.swift */,
 				B6DB1D512EBAE18500DE9485 /* DateManager.swift */,
+				B62DF4A62EBB7339008E3EE2 /* MainVCElements.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B63E51192EBAA14C006ED5A4 /* Constants.swift in Sources */,
+				B62DF4A72EBB7339008E3EE2 /* MainVCElements.swift in Sources */,
 				B6DB1D522EBAE18500DE9485 /* DateManager.swift in Sources */,
 				B63E51032EBA9070006ED5A4 /* MainVC.swift in Sources */,
 				B63E51092EBA9070006ED5A4 /* Budjettisovellus.xcdatamodeld in Sources */,
